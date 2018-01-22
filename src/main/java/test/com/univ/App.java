@@ -34,7 +34,7 @@ public class App
 			p.setName("Tintin");
 					
 			DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-			Date beginDate = dateFormat.parse("23/09/2015");
+			Date beginDate = dateFormat.parse("23/09/2017");
 			p.setDate(beginDate);
 			
 			entityManager.persist(p);
