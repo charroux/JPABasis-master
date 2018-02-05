@@ -1,4 +1,4 @@
-package test.com.univ;
+package com.univ;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -17,7 +17,7 @@ import com.univ.Person;
  * Hello world!
  *
  */
-public class App 
+public class Main 
 {
     public static void main( String[] args )
     {
@@ -42,6 +42,7 @@ public class App
 			tx.commit();			
 		
 		}catch(Exception e){
+			e.printStackTrace();
 			tx.rollback();
 		}
 		
